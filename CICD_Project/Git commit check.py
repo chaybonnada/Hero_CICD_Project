@@ -13,8 +13,8 @@ def get_new_commits(username, repository):
         return None
 
 def main():
-    username = 'username'
-    repository = 'git_assignment_HeroVired'
+    username = 'chaybonnada'
+    repository = 'Hero_CICD_Project'
 
     commits = get_new_commits(username, repository)
 
